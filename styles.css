@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    background-image:url(img/bg.jfif);
+    background-size: cover;
+}
+header{
+    position:fixed;
+    width:100%;
+    z-index:10;
+}
+.header-bottom{
+    background-color:rgba(0, 0, 0, 0.9);
+    height:30px;
+    text-align: center;
+}
+.header-bottom:hover{
+    cursor:pointer;
+}
+.header-bottom i{
+    color:white;
+}
+.pull-down{
+    width:100%;
+    height:auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-bottom: 30px;
+    display:none;
+}
+.pull-down a{
+    border: solid 1px white;
+    border-radius: 100px;
+    text-decoration: none;
+    color:white;
+    display:inline-block;
+    padding: 5px 0 5px 0;
+}
+.pull-top{
+    padding-top: 20px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.p2{
+    margin-top: 5px;
+}
+.pull-top a{
+    width:80%;
+}
+.pull-bottom a{
+    width:25%;
+}
